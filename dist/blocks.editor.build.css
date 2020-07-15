@@ -1,0 +1,55 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-cgb-block-tab-control {
+  background: orangered;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+
+/*.wp-block-emfl-tab-control {
+  width: 100%;
+  padding: 1rem;
+
+  div.guten-tab-holder {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 100%;
+
+      li {
+        display: inline-block;
+        margin: 0 .25rem;
+        list-style: none;
+        background: #000;
+        color: #fff;
+        padding: .35rem 1.5rem;
+        cursor: pointer;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 80%;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:hover {
+          background: chocolate;
+        }
+      }
+    }
+  }
+}*/

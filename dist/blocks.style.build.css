@@ -1,0 +1,59 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-tab-control {
+  background: orangered;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+
+.wp-block-emfl-tab-control {
+  width: 100%;
+  padding: 1rem; }
+  .wp-block-emfl-tab-control div.guten-tab-holder ul {
+    margin: 4rem 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    border-bottom: 1px solid #dedede; }
+    .wp-block-emfl-tab-control div.guten-tab-holder ul li {
+      display: inline-block;
+      margin: 0 .25rem;
+      list-style: none;
+      background: #000;
+      color: #fff;
+      padding: .35rem 1.5rem;
+      cursor: pointer;
+      border-top-left-radius: .5rem;
+      border-top-right-radius: .5rem;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 70%;
+      font-weight: bold; }
+      .wp-block-emfl-tab-control div.guten-tab-holder ul li:first-child {
+        margin-left: 0;
+        background: chocolate; }
+      .wp-block-emfl-tab-control div.guten-tab-holder ul li.active {
+        background: chocolate; }
+      .wp-block-emfl-tab-control div.guten-tab-holder ul li:hover {
+        background: chocolate; }
+  .wp-block-emfl-tab-control div.guten-tab-holder h3 {
+    margin: 1rem auto;
+    font-weight: normal;
+    border-bottom: 1px solid #dedede;
+    text-transform: uppercase;
+    color: inherit;
+    font-size: 98%; }
+  .wp-block-emfl-tab-control div.guten-tab-holder p {
+    margin: 1rem auto;
+    font-size: 78%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
