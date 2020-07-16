@@ -13,43 +13,33 @@
   background: transparent;
   color: #292929;
   margin: 0 auto;
-  width: 100%;
-  /*div.guten-tab-holder div.wp-block-emfl-tab-content {
-    display: block;
-  }
-
-  div.guten-tab-holder div.wp-block-emfl-tab-content ~ div.guten-tab-holder div.wp-block-emfl-tab-content
-  {
-    display: none;
-  }
-  */ }
-  .wp-block-emfl-tab-control div.guten-tab-holder ul {
+  width: 100%; }
+  .wp-block-emfl-tab-control div.guten-tab-holder .guten-tab-items ul {
     margin: 0;
     padding: 0;
     list-style: none;
     width: 100%;
     border-bottom: 1px solid #dedede; }
-    .wp-block-emfl-tab-control div.guten-tab-holder ul li {
+    .wp-block-emfl-tab-control div.guten-tab-holder .guten-tab-items ul li {
       display: inline-block;
       margin: 0 .05rem;
       list-style: none;
-      background: #000;
-      color: #fff;
+      background: #dedede;
+      color: #292929;
       padding: .35rem 1.5rem;
       cursor: pointer;
       border-top-left-radius: .5rem;
       border-top-right-radius: .5rem;
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-size: 70%;
-      font-weight: bold;
-      /*&:hover {
-          background: chocolate;
-        }*/ }
-      .wp-block-emfl-tab-control div.guten-tab-holder ul li:first-child {
+      font-weight: bold; }
+      .wp-block-emfl-tab-control div.guten-tab-holder .guten-tab-items ul li:first-child {
         margin-left: 0;
-        background: chocolate; }
-      .wp-block-emfl-tab-control div.guten-tab-holder ul li.active {
-        background: chocolate; }
+        background: chocolate;
+        color: #f4f4f4; }
+      .wp-block-emfl-tab-control div.guten-tab-holder .guten-tab-items ul li.active {
+        background: chocolate;
+        color: #f4f4f4; }
   .wp-block-emfl-tab-control div.guten-tab-holder h3 {
     margin: 1rem auto;
     font-weight: normal;
@@ -71,6 +61,26 @@
     .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content {
       width: 95%;
       margin: 0 auto; }
+      .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content ul {
+        margin: 1rem 0;
+        padding: .75rem;
+        list-style: none;
+        background: #fff;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: .5rem;
+        -webkit-box-shadow: 2px 2px #ddd;
+                box-shadow: 2px 2px #ddd; }
+        .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content ul li {
+          font-size: 75%;
+          margin: 0;
+          padding: 0;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+          .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content ul li:before {
+            font-family: "FontAwesome";
+            content: "\f192";
+            padding-right: .6rem;
+            color: #adadad; }
       .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content h3 {
         font-size: 80%;
         font-weight: bold;

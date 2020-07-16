@@ -11,39 +11,39 @@
   width: 100%;
 
   div.guten-tab-holder {
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      width: 100%;
-      border-bottom: 1px solid $gray;
-
-      li {
-        display: inline-block;
-        margin: 0 .05rem;
+    .guten-tab-items {
+      ul {
+        margin: 0;
+        padding: 0;
         list-style: none;
-        background: #000;
-        color: #fff;
-        padding: .35rem 1.5rem;
-        cursor: pointer;
-        border-top-left-radius: .5rem;
-        border-top-right-radius: .5rem;
-        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        font-size: 70%;
-        font-weight: bold;
+        width: 100%;
+        border-bottom: 1px solid $gray;
 
-        &:first-child {
-          margin-left: 0;
-          background: chocolate;
+        li {
+          display: inline-block;
+          margin: 0 .05rem;
+          list-style: none;
+          background: $gray;
+          color: $black;
+          padding: .35rem 1.5rem;
+          cursor: pointer;
+          border-top-left-radius: .5rem;
+          border-top-right-radius: .5rem;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font-size: 70%;
+          font-weight: bold;
+
+          &:first-child {
+            margin-left: 0;
+            background: chocolate;
+            color: $white;
+          }
+
+          &.active {
+            background: chocolate;
+            color: $white;
+          }
         }
-
-        &.active {
-          background: chocolate;
-        }
-
-        /*&:hover {
-          background: chocolate;
-        }*/
       }
     }
 
@@ -75,6 +75,34 @@
         width: 95%;
         margin: 0 auto;
 
+        ul {
+          margin: 1rem 0;
+          padding: .75rem;
+          list-style: none;
+          background: #fff;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-border-radius: .5rem;
+          -moz-border-radius: .5rem;
+          border-radius: .5rem;
+          box-shadow: 2px 2px #ddd;
+
+          li {
+            font-size: 75%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+            &:before {
+              font-family: "FontAwesome";
+              content: "\f192";
+              padding-right: .6rem;
+              color: #adadad;
+            }
+          }
+        }
+
         h3 {
           font-size: 80%;
           font-weight: bold;
@@ -97,14 +125,4 @@
       }
     }
   }
-
-  /*div.guten-tab-holder div.wp-block-emfl-tab-content {
-    display: block;
-  }
-
-  div.guten-tab-holder div.wp-block-emfl-tab-content ~ div.guten-tab-holder div.wp-block-emfl-tab-content
-  {
-    display: none;
-  }
-  */
 }
