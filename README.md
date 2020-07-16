@@ -82,3 +82,7 @@ Below you will find some information on how to run scripts.
 - core-embed/tumblr
 - core-embed/videopress
 - core-embed/wordpress-tv
+
+## 👉  `Nested Block and Child Block`
+- https://raquelmsmith.com/blog/how-to-create-nested-blocks-for-gutenberg/
+- https://github.com/WordPress/gutenberg/issues/5540
