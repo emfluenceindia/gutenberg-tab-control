@@ -24,8 +24,8 @@ $(document).ready(function(){
 
 function swap_active_class( $current_el ) {
     $(".guten-tab-items ul li").each(function(){
-        $(this).attr("style", "background: #dedede;color: #414141")
+        $(this).attr("style", "background: #dedede;color: #414141; border-bottom: 1px solid #cfcfcf;")
     });
 
-    $( $current_el ).attr("style", "background: chocolate;color: #f4f4f4")
+    $( $current_el ).attr("style", "background: chocolate;color: #f4f4f4; border-bottom: 1px solid brown;")
 }

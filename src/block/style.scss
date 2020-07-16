@@ -29,6 +29,7 @@
           cursor: pointer;
           border-top-left-radius: .5rem;
           border-top-right-radius: .5rem;
+          border-bottom: 1px solid #cfcfcf;
           font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
           font-size: 70%;
           font-weight: bold;
@@ -37,11 +38,13 @@
             margin-left: 0;
             background: chocolate;
             color: $white;
+            border-bottom: 1px solid brown;
           }
 
           &.active {
             background: chocolate;
             color: $white;
+            border-bottom: 1px solid brown;
           }
         }
       }
