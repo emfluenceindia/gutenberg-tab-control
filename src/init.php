@@ -21,6 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 function tab_control_block_assets() { // phpcs:ignore
+	// Scripts
 	wp_enqueue_script(
 		'jQuery',
 		'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js',
@@ -43,6 +44,13 @@ function tab_control_block_assets() { // phpcs:ignore
 		plugins_url( 'dist/blocks.style.build.css', dirname( __FILE__ ) ), // Block style CSS.
 		array( 'wp-editor' ) // Dependency to include the CSS after it.
 	// filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.style.build.css' ) // Version: File modification time.
+	);
+	
+	wp_enqueue_style(
+		'awesome', // Handle.
+		'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', // Block style CSS.
+		null,
+		'screen'
 	);
 }
 

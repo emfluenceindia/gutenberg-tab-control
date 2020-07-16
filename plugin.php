@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Gutenberg Tab Control
- * Plugin URI: https://github.com/ahmadawais/create-guten-block/
- * Description: Gutenberg block to place Tab Control
+ * Plugin URI: https://github.com/emfluenceindia/Gutenberg-Block-Tab-Control
+ * Description: Ability to place a tabbed-data control on a page or post. The block lets you create tab items and associated content for each item.
  * Author: Subrata Sarkar
  * Author URI: https://subratasarkar.com
  * Version: 1.0.0

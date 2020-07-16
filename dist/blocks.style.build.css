@@ -41,13 +41,14 @@
       border-top-right-radius: .5rem;
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-size: 70%;
-      font-weight: bold; }
+      font-weight: bold;
+      /*&:hover {
+          background: chocolate;
+        }*/ }
       .wp-block-emfl-tab-control div.guten-tab-holder ul li:first-child {
         margin-left: 0;
         background: chocolate; }
       .wp-block-emfl-tab-control div.guten-tab-holder ul li.active {
-        background: chocolate; }
-      .wp-block-emfl-tab-control div.guten-tab-holder ul li:hover {
         background: chocolate; }
   .wp-block-emfl-tab-control div.guten-tab-holder h3 {
     margin: 1rem auto;
@@ -59,3 +60,28 @@
     margin: 1rem auto;
     font-size: 78%;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content {
+    width: 100%;
+    background: #f4f4f4;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.5rem .6rem;
+    border: 1px solid #dedede;
+    border-top: 0; }
+    .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content {
+      width: 95%;
+      margin: 0 auto; }
+      .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content h3 {
+        font-size: 80%;
+        font-weight: bold;
+        letter-spacing: .025rem;
+        color: chocolate;
+        margin: 0 0 1.26rem 0; }
+        .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content h3:before {
+          font-family: "FontAwesome";
+          content: "\f0a4";
+          padding-right: .6rem;
+          color: #292929; }
+      .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content div {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 80%; }

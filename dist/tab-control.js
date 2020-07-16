@@ -8,6 +8,7 @@ $(document).ready(function(){
 
     $(".guten-tab-items ul li").each(function(i, el){
         $(this).attr("rel", "tab_content_" + i)
+
         $(this).bind("click", function(){
             const target_id = "#" + $(this).attr("rel");
             swap_active_class( $(this) );
@@ -17,6 +18,7 @@ $(document).ready(function(){
             });
             $(target_id).slideDown();
         });
+
     });
 });
 
