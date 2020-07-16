@@ -81,6 +81,16 @@
             content: "\f192";
             padding-right: .6rem;
             color: #adadad; }
+      .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content figure {
+        margin: 0 auto;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+        .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content figure img {
+          margin: 0 auto;
+          border-radius: .5rem;
+          -webkit-box-shadow: 2px 2px #cdcdcd;
+                  box-shadow: 2px 2px #cdcdcd; }
       .wp-block-emfl-tab-control div.guten-tab-holder .wp-block-emfl-tab-content .guten-tab-content h3 {
         font-size: 80%;
         font-weight: bold;

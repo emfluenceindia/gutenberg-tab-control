@@ -103,6 +103,22 @@
           }
         }
 
+        figure {
+          margin: 0 auto;
+          padding: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+          img {
+            margin: 0 auto;
+            -webkit-border-radius: .5rem;
+            -moz-border-radius: .5rem;
+            border-radius: .5rem;
+            box-shadow: 2px 2px #cdcdcd;
+          }
+        }
+
         h3 {
           font-size: 80%;
           font-weight: bold;
