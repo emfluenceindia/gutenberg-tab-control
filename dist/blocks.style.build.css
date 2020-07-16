@@ -9,26 +9,29 @@
  *
  * CSS for both Frontend+Backend.
  */
-.wp-block-cgb-block-tab-control {
-  background: orangered;
-  border: 0.2rem solid #292929;
+.wp-block-emfl-tab-control {
+  background: transparent;
   color: #292929;
   margin: 0 auto;
-  max-width: 740px;
-  padding: 2rem; }
-
-.wp-block-emfl-tab-control {
   width: 100%;
-  padding: 1rem; }
+  /*div.guten-tab-holder div.wp-block-emfl-tab-content {
+    display: block;
+  }
+
+  div.guten-tab-holder div.wp-block-emfl-tab-content ~ div.guten-tab-holder div.wp-block-emfl-tab-content
+  {
+    display: none;
+  }
+  */ }
   .wp-block-emfl-tab-control div.guten-tab-holder ul {
-    margin: 4rem 0;
+    margin: 0;
     padding: 0;
     list-style: none;
     width: 100%;
     border-bottom: 1px solid #dedede; }
     .wp-block-emfl-tab-control div.guten-tab-holder ul li {
       display: inline-block;
-      margin: 0 .25rem;
+      margin: 0 .05rem;
       list-style: none;
       background: #000;
       color: #fff;
@@ -49,7 +52,6 @@
   .wp-block-emfl-tab-control div.guten-tab-holder h3 {
     margin: 1rem auto;
     font-weight: normal;
-    border-bottom: 1px solid #dedede;
     text-transform: uppercase;
     color: inherit;
     font-size: 98%; }

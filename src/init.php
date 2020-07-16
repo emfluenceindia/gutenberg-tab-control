@@ -21,6 +21,22 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 function tab_control_block_assets() { // phpcs:ignore
+	wp_enqueue_script(
+		'jQuery',
+		'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js',
+		null,
+		null,
+		false
+	);
+	
+	wp_enqueue_script(
+		'tab_control_block_script',
+		plugins_url( '/dist/tab-control.js', dirname( __FILE__ ) ),
+		array(),
+		null,
+		true
+	);
+	
 	// Styles.
 	wp_enqueue_style(
 		'tab_control-block-style', // Handle.

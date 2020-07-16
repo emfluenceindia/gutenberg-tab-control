@@ -33,6 +33,7 @@ function emfl_tab_strip() {
         icon: 'archive', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
         category: 'emfl-tab-control', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
         parent: ['emfl/tab-control'],
+        multiple: false,
         keywords: [
             __('Tab Strip'),
             __('Tab'),
@@ -97,7 +98,7 @@ function emfl_tab_strip() {
         save: (props) => {
             return (
                 <div className={props.className}>
-                    <div className="guten-tab-holder">
+                    <div className="guten-tab-items">
                         <InnerBlocks.Content/>
                     </div>
                 </div>

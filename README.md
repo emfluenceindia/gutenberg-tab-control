@@ -86,3 +86,5 @@ Below you will find some information on how to run scripts.
 ## 👉  `Nested Block and Child Block`
 - https://raquelmsmith.com/blog/how-to-create-nested-blocks-for-gutenberg/
 - https://github.com/WordPress/gutenberg/issues/5540
+- https://wordpress.stackexchange.com/a/344062/109082
+- https://developer.wordpress.org/block-editor/developers/block-api/block-registration/#supports-optional
