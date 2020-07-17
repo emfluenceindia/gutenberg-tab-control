@@ -41,7 +41,7 @@ function emfl_tab_strip() {
             __('Tab'),
             __('Gutenberg Tab Strip'),
         ],
-        attributes: {
+        /*attributes: {
             contentHeading: {
                 type: 'string',
                 source: 'text',
@@ -51,7 +51,7 @@ function emfl_tab_strip() {
             textContent: {
                 type: 'string'
             }
-        },
+        },*/
 
         /**
          * The edit function describes the structure of your block in the context of the editor.
@@ -66,7 +66,7 @@ function emfl_tab_strip() {
          */
         edit: (props) => {
 
-            const contentHeading = props.attributes.contentHeading;
+            /*const contentHeading = props.attributes.contentHeading;
             const textContent = props.attributes.textContent;
 
             function onChangeTextContent(content) {
@@ -75,7 +75,7 @@ function emfl_tab_strip() {
 
             function onChangeHeading(heading) {
                 props.setAttributes({contentHeading: heading});
-            }
+            }**/
 
             return (
                 <div className={props.className}>
