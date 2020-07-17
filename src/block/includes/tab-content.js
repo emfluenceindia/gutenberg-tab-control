@@ -89,7 +89,7 @@ function emfl_tab_content() {
                             onChange={onChangeTextContent}
                             placeholder={__('Add some text')}
                         />
-                        <InnerBlocks allowedBlocks={['core/list', 'core/image']}/>
+                        <InnerBlocks allowedBlocks={['core/paragraph', 'core/list', 'core/image']}/>
                     </div>
                 </div>
             );

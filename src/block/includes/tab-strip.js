@@ -32,8 +32,10 @@ function emfl_tab_strip() {
         title: __('Tab Strip'), // Block title.
         icon: 'archive', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
         category: 'emfl-tab-control', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
+        supports: {
+            multiple: false
+        },
         parent: ['emfl/tab-control'],
-        multiple: false,
         keywords: [
             __('Tab Strip'),
             __('Tab'),
