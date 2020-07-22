@@ -79,7 +79,7 @@ function emfl_tab_strip() {
 
             return (
                 <div className={props.className}>
-                    <div>
+                    <div className="tab-control-editor-list">
                         <InnerBlocks allowedBlocks={['core/list']}/>
                     </div>
                 </div>
