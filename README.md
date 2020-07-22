@@ -88,3 +88,4 @@ Below you will find some information on how to run scripts.
 - https://github.com/WordPress/gutenberg/issues/5540
 - https://wordpress.stackexchange.com/a/344062/109082
 - https://developer.wordpress.org/block-editor/developers/block-api/block-registration/#supports-optional
+- https://gist.github.com/igorbenic/970abd2e503c6c976fde0ae6d0172193
